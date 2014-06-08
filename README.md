@@ -1,4 +1,4 @@
 iSPAAA-Server
 =============
 
-Server side for the ISPAAA app
+Server side for the ISPAAA app.
