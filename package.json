@@ -4,6 +4,7 @@
   "description": "Serves the ISPAAA client.",
   "main": "server.js",
   "dependencies": {
+    "pg":  "*",
     "express": "*",
     "logfmt": "*",
     "mocha":  "*"
