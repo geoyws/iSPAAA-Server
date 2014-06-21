@@ -1,27 +1,18 @@
 {
-  "name": "ispaaa-server",
-  "version": "0.0.0",
-  "description": "Serves the ISPAAA client.",
-  "main": "server.js",
-  "dependencies": {
-    "pg":  "*",
-    "express": "*",
-    "logfmt": "*",
-    "mocha":  "*"
-  },
-  "devDependencies": {},
+  "name": "iSPAAA-Server",
+  "version": "0.0.1",
+  "private": true,
   "scripts": {
-    "test": "mocha spec",
-    "start": "node server.js"
+    "start": "node ./bin/www"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/geoyws/iSPAAA-Server.git"
-  },
-  "author": "George Yong Wen Soong",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/geoyws/iSPAAA-Server/issues"
-  },
-  "homepage": "https://github.com/geoyws/iSPAAA-Server"
+  "dependencies": {
+    "logfmt": "*",
+    "express": "~4.2.0",
+    "static-favicon": "~1.0.0",
+    "morgan": "~1.0.0",
+    "cookie-parser": "~1.0.1",
+    "body-parser": "~1.0.0",
+    "debug": "~0.7.4",
+    "jade": "~1.3.0"
+  }
 }
