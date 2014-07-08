@@ -22,21 +22,25 @@ router.route('/fakeapi/myactivity/date')
   .get(function(req, res) {
     var fakeModel = [
       {
-        "Activity": "Bug Fix",
+        "ActivityMainID": "1",
+	"Activity": "Bug Fix",
         "AccountDescription": "SP Setia Property",
         "Hours": "3"
       },
       {
+	"ActivityMainID": "2",
         "Activity": "Bug Fix",
         "AccountDescription": "SP Setia Hardware",
         "Hours": "4"
       },
       {
+	"ActivityMainID": "3",
         "Activity": "Bug Fix",
         "AccountDescription": "SP Setia Retail",
         "Hours": "2"
       },
       {
+	"ActivityMainID": "4",
         "Activity": "Meeting",
         "AccountDescription": "SP Setia Property",
         "Hours": "1"
